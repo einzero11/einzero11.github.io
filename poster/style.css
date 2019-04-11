@@ -1,0 +1,197 @@
+
+.wrapper{
+	position: absolute;
+	width: 1024px;
+	height: 700px;
+	top: 0vw;
+	left: 5vw;
+	right: 0vw;
+	bottom: 0vw;
+	background-color: rgba(0,0,0,0);
+	margin: auto;
+}
+.headline1{
+	position: absolute;
+	width:100%;
+	height:103px;
+	left: 0px;
+	top: 0px;
+	bottom:0px;
+	right: 0px;
+	margin: auto;
+	font-family: 'Nunito Sans:700', sans-serif;
+	font-size: 103px;
+	color: rgb(55,55,55);
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.textsub{
+	position: absolute;
+	left: 0px;
+	top: 400px;
+	bottom:0px;
+	right: 0px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 30px;
+	color: rgb(55,55,55);
+	letter-spacing: 2px;
+	text-align: center;
+}
+.date{
+	position: absolute;
+	font-family: 'Nunito Sans', sans-serif;
+	color: black;
+	font-size: 25px;
+	right:0vw;
+	top:2vw;
+	text-align: right;
+	line-height: 20px;
+}
+
+.tickets{
+	position: absolute;
+	left: 36vw;
+	top: 120vw;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 7vw;
+	color: rgb(55,55,55);
+	letter-spacing: 0px;
+	line-height: 8vw;
+}
+.subtickets{
+	position: absolute;
+	left: 36vw;
+	top: 120vw;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 7vw;
+	color: rgb(55,55,55);
+	letter-spacing: 0px;
+	line-height: 8vw;
+}
+
+.bg{
+	position:absolute;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+	background-image: url(pic1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.prices{
+	position: absolute;
+	top:60px;
+	left: 30px;
+	font-size: 17px;
+	font-family: 'Nunito Sans', sans-serif; 
+	color: rgb(255,255,255);
+	line-height: 30px;
+}
+.admission{
+	position: absolute;
+	top:25px;
+	left: 30px;
+	font-size: 24px;
+	font-family: 'Nunito Sans', sans-serif; 
+	color: rgb(255,255,255);
+	letter-spacing: 2px;
+}
+
+.square{
+	position: absolute;
+	width:30vw;
+	height: 200px;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 15px 0px 0px 0px;
+	background-color: rgb(55,55,55);
+}
+.astoria{
+	position: absolute;
+	top:435px;
+	left:457px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 24px;
+}
+.time{
+	position: absolute;
+	top:463px;
+	left:469px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+}
+.museum{
+	position: absolute;
+	top:12px;
+	left:4px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 25px;
+}
+.line{
+	position: absolute;
+	width: 255px;
+	height:3px;
+	top:37px;
+	left:0px;
+	background-color: black;
+}
+.fade{
+	position: absolute;
+	width:100vw;
+	height: 100vw
+	color: rgba(255,255,255,0);
+	background-color: black;
+  transition: background-color 0.5s ease-in-out;
+}
+
+@media (max-width: 750px) {
+	.wrapper{
+		width: 400px;
+		height:400px;
+	}
+	.headline1{
+		font-size: 75px; 
+		color:black;
+			}
+	.textsub{
+		position: absolute;
+		top: 225px;
+		font-size: 18px;
+		color: black;
+	}
+	.astoria{
+		position: absolute;
+		top:250px;
+		left: 170px;
+		font-size: 12px;
+		color: black;
+	}
+
+	.time{
+		position: absolute;
+		top: 270px;
+		left: 170px;
+		font-size: 14px;
+		color: black;
+	}
+	.bg{
+	position:absolute;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+	background-image: url(pic2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	.date{
+		position
+	}
+	.square{
+		width:40vw;
+	}
+
+
+
