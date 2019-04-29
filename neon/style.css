@@ -1,0 +1,53 @@
+.bg{
+	position:absolute;
+	width: 100vw;
+	height: 100vw;
+	top:0;
+	left:0;
+	background-color:black;
+}
+.enter{
+	position:absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	width: 150px;
+}
+.hello{
+	position: absolute;
+	top:60px;
+	left: 300px;
+	right: 0;
+	bottom:0;
+}
+.password{
+	position: absolute;
+	top:0px;
+	left: 400px;
+	right: 0px;
+	bottom:0px;
+}
+.guy{
+	position:absolute;
+	top:0px;
+	right: 0px;
+}
+.girl{
+	position:absolute;
+	top:0px;
+	left: 0px;
+}
+.low{
+	position: absolute;
+	top: 300px;
+}
+.truth{
+	width: 450px;
+}
+.love_story{
+	position: absolute;
+	top: 500px;
+	left: 30px;
+	width:300px;
+}
