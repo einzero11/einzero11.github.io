@@ -1,11 +1,19 @@
 .bg{
-	position:absolute;
+	position:relative;
 	width: 100vw;
 	height: 100vw;
+	margin: auto;
+	padding: 0vw;
+    text-align: center;
 	top:0;
 	left:0;
 	background-color:black;
 }
+
+.inspirationbg{
+	height: 7000px;
+}
+
 .enter{
 	position:absolute;
 	top:0;
@@ -28,6 +36,12 @@
 	right: 0px;
 	bottom:0px;
 }
+
+.pick_your_poison{
+	display: block;
+	margin: 0 auto;
+}
+
 .guy{
 	position:absolute;
 	top:0px;
@@ -42,12 +56,475 @@
 	position: absolute;
 	top: 300px;
 }
+.middle{
+	position: absolute;
+	top: 300px;
+}
 .truth{
 	width: 450px;
 }
+
 .love_story{
 	position: absolute;
-	top: 500px;
+	top: 300px;
 	left: 30px;
 	width:300px;
+}
+.girlboss_cover{
+	position: absolute;
+	top: 300px;
+	right: 0px;
+	width:300px;
+}
+
+.designer{
+	position: absolute;
+	top: 300px;
+	left: 550px;
+	width:300px;
+}
+
+.girlsgirlsgirls{
+	background-image: url(girlsgirlsgirls.gif);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	width: 300px;
+	height: 200px;
+}
+.dont_worry{
+	background-image: url(dont_worry.gif);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 300px;
+	left: 700px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+
+}
+.if_youre_sad{
+	background-image: url(if_youre_sad.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 520px;
+	left: 700px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+.feminist{
+	background-image: url(feminist.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 70px;
+	left: 10px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+.who_run_the_world{
+	background-image: url(who_run_the_world.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+	transform: rotate(180deg);
+}
+
+
+
+.what_if{
+	background-image: url(what_if.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 400px;
+	left: 700px;
+	width: 500px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+
+.do_fun_shit{
+	background-image: url(do_fun_shit.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+.and_justice_for_all{
+	background-image: url(and_justice_for_all.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+
+.more_dior_less_war {
+	background-image: url(more_dior_less_war.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 270px;
+	left: 850px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+
+.by_popular_demand{
+	background-image: url(by_popular_demand.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+.she_is{
+	background-image: url(she_is.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 300px;
+	left: 550px;
+	width: 400px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+.badass{
+	background-image: url(badass.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 750px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+	}
+
+
+
+
+.shes_american{
+	background-image: url(shes_american.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 250px;
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+.girlboss{
+	background-image: url(girlboss.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 300px;
+	left: 525px;
+	width: 275px;
+	height: 200px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+.show{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+.hide{
+	opacity: 0;
+	pointer-events: auto;
+}
+
+.designer1{
+	background-image: url(designer.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 30px;
+	left: 550px;
+	width: 350px;
+	height: 400px;
+	opacity: 1;
+	pointer-events: none;
+	margin: 0 auto;
+}
+.follow_me{
+	background-image: url(follow_me.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 600px;
+	left: 400px;
+	width: 350px;
+	height: 400px;
+	opacity: 1;
+	pointer-events: none;
+}
+.this_is_the_sign{
+	background-image: url(this_is_the_sign.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1000px;
+	left: 700px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.make_art_your_life{
+	background-image: url(make_art_your_life.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1500px;
+	left: 400px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.the_future_is_yours{
+	background-image: url(the_future_is_yours.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1800px;
+	left: 800px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+
+.sleep_is{
+	background-image: url(sleep_is.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 2400px;
+	left: 400px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+
+.hustle_hard{
+	background-image: url(hustle_hard.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 3000px;
+	left: 200px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.late_nights_early_mornings{
+	background-image: url(late_nights_early_mornings.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 3200px;
+	left: 750px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.there_will_be_no_miracles_here{
+	background-image: url(there_will_be_no_miracles_here.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 3550px;
+	left: 530px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.forget_your_maps{
+	background-image: url(forget_maps.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 4000px;
+	left: 100px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.think_about_things_differently {
+	background-image: url(think_about_things_differently.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 4500px;
+	left: 800px;
+	width: 350px;
+	height: 600px;
+	transform: rotate(15deg);
+	opacity: 1;
+	pointer-events: none;
+}
+
+.think_outside_the_box{
+	background-image: url(think_outside_the_box.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 4800px;
+	left: 300px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+
+.dont_make_sense{
+	background-image: url(dont_make_sense.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5500px;
+	left: 100px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.dont{
+	background-image: url(dont.gif);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5600px;
+	left: 550px;
+	width: 175px;
+	height: 600px;
+	opacity: .8;
+	pointer-events: none;
+}
+.dont_pawn_your_dream{
+	background-image: url(pawn_your_dream.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5500px;
+	left: 900px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.spiral{
+	background-image: url(spiral.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5800px;
+	left: 450px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.be_faithful_to_your_dreams{
+	background-image: url(be_faithful_to_your_dreams.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 6300px;
+	left: 450px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;
+	pointer-events: none;
+}
+.and_everyone_will_be_stunned{
+	background-image: url(and_everyone_will_be_stunned.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 6500px;
+	left: 450px;
+	width: 350px;
+	height: 600px;
+	opacity: 1;	
 }
