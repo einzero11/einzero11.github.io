@@ -1,5 +1,5 @@
 .bg{
-	position:relative;
+	position:absolute;
 	width: 100vw;
 	height: 100vw;
 	margin: auto;
@@ -63,25 +63,31 @@
 .truth{
 	width: 450px;
 }
+.nothing_home{
+	position: absolute;
+	top:300px;
+	left: 100px;
+	height: 150px;
+}
 
 .love_story{
 	position: absolute;
 	top: 300px;
-	left: 30px;
-	width:300px;
+	left: 425px;
+	height:150px;
 }
 .girlboss_cover{
 	position: absolute;
 	top: 300px;
-	right: 0px;
-	width:300px;
+	left: 1050px;
+	height:150px;
 }
 
 .designer{
 	position: absolute;
 	top: 300px;
-	left: 550px;
-	width:300px;
+	left: 725px;
+	height:150px;
 }
 
 .girlsgirlsgirls{
@@ -527,4 +533,71 @@
 	width: 350px;
 	height: 600px;
 	opacity: 1;	
+}
+.nothing{
+	width: 500px;
+	position: absolute;
+	left: 480px;
+	top: 75px;
+	text-align: center;
+}
+.about{
+	position: absolute;
+	top:470px;
+	left: 480px;
+	font-size: 17px;
+	font-family: 'Lora', serif;
+	color: rgb(255,255,255);
+	line-height: 25px;
+	text-align: left;
+	width: 500px;
+}
+.back{
+	position: absolute;
+	top:750px;
+	left: 450px;
+	font-size: 17px;
+	font-family: 'Lora', serif;
+	color: rgb(255,0,127);
+	line-height: 25px;
+	text-align: center;
+	width: 500px;
+}
+.name{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-size: 17px;
+	font-family: 'Lora', serif;
+	color: rgb(255,0,127);
+	line-height: 25px;
+	text-align: center;
+	width: 500px;
+}
+.color{
+	color:rgb(255,0,127);
+}
+.credits_button{
+	position: absolute;
+	top: 500px;
+	left: 620px;
+	font-size: 17px;
+	font-family: 'Lora', serif;
+	color: rgb(255,255,255);
+	line-height: 25px;
+	text-align: center;
+}
+.start_here{
+	position: absolute;
+	top: 460px;
+	left: 102px;
+	font-size: 14px;
+	font-family: 'Lora', serif;
+	color: rgb(255,255,255);
+	line-height: 25px;
+	text-align: center;
+}
+.low{
+	position: absolute;
+	top:310px;
 }
